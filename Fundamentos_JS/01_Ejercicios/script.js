@@ -6,8 +6,8 @@ console.log("variable: Global: " + global + "-local: "+ local + "-Constante: " +
 
 const numeroDecimla = 5.5;
 
-let nuemero = 54;let numeroDecimla = 5.5;
-let texto "hola pendejos";
+let nuemero = 54;let numeroDecimal = 5.5;
+let texto = "hola pendejos";
 let registroDeCompra = true;
 let Semmana = ["lunes", "martes", "miercoles", "jueves", "viernes"];
 let cosa = {anthony_david:3};
