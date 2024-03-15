@@ -6,7 +6,7 @@ console.log("variable: Global: " + global + "- local: "+ local + "- Constante: "
 
 const numeroDecimla = 5.5;
 
-let nuemero = 54;
+let numero = 54;
 let numeroDecimal = 5.5;
 let texto = "hola pendejos";
 let registroDeCompra = true;
@@ -18,6 +18,6 @@ function suma() {return 4 + 4
 }
 
 console.log("Variable:\nEntero " + numero + "\nDecimal " + numeroDecimal + "\nTexto " + texto + "\nBoolean " + registroDeCompra + "\nDias " + Semmana +
-"\nObjeto " + cosa + "\nVariable indefinidas " + indefinida + "\nnull" + nulo + "\nresultado funcion " + suma);
+"\nObjeto " + JSON.stringify(cosa) + "\nVariable indefinidas " + indefinida + "\nnull" + nulo + "\nresultado funcion " + suma);
 
 console.log( suma ());
