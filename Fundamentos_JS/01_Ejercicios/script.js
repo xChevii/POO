@@ -15,3 +15,6 @@ let indefinida;
 let nulo = null;
 function suma() {return 4 + 4
 }
+
+console.log("Variable:\nEntero " + numero + "\nDecimal " + numeroDecimal + "\nTexto " + texto + "\nBoolean " + registroDeCompra + "\nDias " + Semmana +
+"\nObjeto " + cosa + "\nVariable indefinidas " + indefinida + "\nnull" + nulo + "\nresultado funcion " + suma);
