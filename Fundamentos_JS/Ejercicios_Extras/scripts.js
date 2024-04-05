@@ -1,8 +1,14 @@
-var temperatura = 20; 
-if (temperatura < 0) {
-  console.log("esta haciendo mucho frio");
-} else if (temperatura >= 0 && temperatura <= 25) {
-  console.log("esta en una temperatura ambiente");
-} else {
-  console.log("esta haciendo mucho calor");
+console.log("Fue mi pene")
+
+function identificarMayorEdad() // Identificar si es mayor de edad
+{
+    let resultado = ""
+    let edad = prompt("Porfavor ingrese su Edad: ")
+
+    if(edad >= 18){
+        resultado = `Es mayor de edad - Tiene: <h2>${edad}</h2>`
+    } else{
+        resultado = `No es mayor de edad - Tiene: <h2>${edad}</h2>`
+    }
+    document.getElementById('lista').innerHTML = resultado;
 }
