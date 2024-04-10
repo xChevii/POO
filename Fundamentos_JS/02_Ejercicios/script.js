@@ -2,9 +2,7 @@ console.log("que fue")
 function temperaturasTarea() // para indentificar las cosas
 {
     let resultado = ""
-    
     //
-    
     let temps = prompt("la temperatura de tu mama es: ")
     if(temps <0){
         resultado = `esta haciendo mucho frio estamos a: <h2>${temps}°</h2>`
