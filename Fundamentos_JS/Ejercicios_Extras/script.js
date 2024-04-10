@@ -15,21 +15,3 @@ function temperaturasTarea() // para indentificar las cosas
     }
     document.getElementById('lista').innerHTML = resultado;
 }
-
-//code nombre Usuario
-
-unction loging(){
-    let nombreUsuario = prompt("ingrese nombre de usuario: ")
-    let contraseña prompt("ingrese contraseña: ")
-    let usuario = "invitado123";
-    let contra = "";
-    if (nombreAUsuario == usuario && contraseña == contra){
-        result =  "<h2> lograste iniciar </h2>";
-        
-    }else{
-        result = "<h2> no lograste iniciar</h2>"
-    }
-
-        document.getElementById("lista").innerHTML = result;
-
-}
