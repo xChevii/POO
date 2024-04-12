@@ -1,4 +1,4 @@
-function P10Pares() {
+function primero10Pares() {
     let contador = 1;
     let array = [];
     while (array.length < 10) {
@@ -7,5 +7,5 @@ function P10Pares() {
       }
       contador++;
     }
-    document.getElementById("resultado").innerHTML = "<p>Primeros 10 números pares:</p> <br><h2>" + array + "</h2>";
+    document.getElementById("resultado").innerHTML = "<p>los primeros 10 números pares:</p> <br><h2>" + array + "</h2>";
   }

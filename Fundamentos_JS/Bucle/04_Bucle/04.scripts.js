@@ -1,4 +1,4 @@
-function encontrarNumeroMayor() {
+function encuentraelnumeroMayor() {
   let numeros = [];
   for (let i = 1; i <= 5; i++) {
     let numero = parseInt(prompt("escriba el numero " + i + ":"));

@@ -1,4 +1,4 @@
-function sumade1a10() {
+function sumarnumeros1a10() {
     let contador = 1;
     let suma = 0;
     let cadenaSuma = "";
@@ -11,5 +11,5 @@ function sumade1a10() {
       }
       contador++;
     }
-    document.getElementById("resultado").innerHTML = "<p>La suma del 1 al 10 es:</p> <br><h2>" + cadenaSuma + " = " + suma + "</h2>";
+    document.getElementById("resultado").innerHTML = "<p>la suma del 1 al 10 es:</p> <br><h2>" + cadenaSuma + " = " + suma + "</h2>";
   }
