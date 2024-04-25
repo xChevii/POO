@@ -15,8 +15,18 @@
         <h1>la tarea del profe pero ya lista</h1>
         <p>↓↓↓↓↓</p>
         <p>la tarea que pidio el profe</p>
-        <button class="btn btn-primary" onclick="numerosCrecientes()">Identificar</button>
-        <div id="resultado" class="container mt-3"></div>
+        <form>
+            <div class="form-group mt-3">
+                <label for="inputText">Ingrese Número para trabajar</label>
+                <input type="text" class="form-control mt-3" placeholder="Ingrese un Número">
+                <button class="btn btn-danger mt-3" onclick="traerTablas()">Trabajar</button>
+            </div>
+        </form>
+        <div class="container mt-3">
+            <ul id="lista">
+
+            </ul>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="scripts_ppp.js"></script>
