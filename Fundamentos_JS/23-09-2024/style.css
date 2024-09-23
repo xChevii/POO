@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.browser-frame {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.browser-top {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.browser-buttons {
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+}
+.browser-button {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.address-bar {
+    flex-grow: 1;
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.content {
+    padding: 20px;
+}
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-login {
+    display: flex;
+    gap: 10px;
+}
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+.definitions {
+    flex-grow: 1;
+}
+.definition {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.definition-header {
+    display: flex;
+    justify-content: space-between;
+}
+.like-btn {
+    background-color: #ffd966;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.sidebar {
+    width: 200px;
+}
+.add-definition {
+    border: 1px solid black;
+    padding: 10px;
+}
+.add-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+.login-btn {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
